@@ -1,6 +1,6 @@
-from test_2 import celsius_to_fahrenheit
+from celsius import celsius_to_fahrenheit
 
-def test_temperature():
-    result = celsius_to_fahrenheit(0)
-    expected = "Celsius: 0\nFahrenheit: 32.0"
+def test_celsius_to_fahrenheit():
+    result = celsius_to_fahrenheit(25)
+    expected = 77.0
     assert result == expected
