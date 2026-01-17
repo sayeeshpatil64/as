@@ -1,4 +1,4 @@
-from test_2 import celsius_to_fahrenheit
+from ass_2 import celsius_to_fahrenheit
 
 def test_temperature():
     result = celsius_to_fahrenheit(0)
